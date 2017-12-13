@@ -8,6 +8,7 @@ body {
 .btn {
    border-radius: 2px;
 }
+
 .header {
    font-family: "Candara";
    color: #777;
@@ -16,35 +17,42 @@ body {
    flex-direction: column;
    align-items: center;
 }
+
 .main {
    display: flex;
    height: 100%;
-   /*    border:solid 1px; */
    flex-direction: column;
    justify-content: flex-end;
    align-items: flex-start;
 }
+
 .footer {
    display: flex;
    margin-top:10px;
 }
+
 #suggestion {
    list-style: none;
    font-family: "Trebuchet MS";
    color: #999;
    padding-left: 4px;
    margin: 0;
-   
+   li {
+      padding: 0 6px;
+      border-radius:3px
+   }
 }
+
 .selected {
    background: #2ea9df;
    color: #fff;
 }
 
-.allresult {
+.allResult {
    list-style-type: none;
    margin: 0;
-   padding: 10px 20px;
+   border-radius:8px;
+   padding: 20px 15px;
    background-color: #eee;
    border: solid #eee 1px;
 }
