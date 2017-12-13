@@ -1,1 +1,21 @@
-
+.header
+  h1 Wikipedia Search
+  h6 FrontEnd Development
+  br
+.container-fluid
+  .main
+   input.form-control#searchfor(type='text')
+   ul#suggestion
+   hr
+   button#search.btn.btn-outline-secondary GO Searching
+   br
+   ul#output
+  .footer
+   a(href='https://en.wikipedia.org/wiki/Special:Random' targer='blank') Wiki Randomly Info 
+   p ｜
+   a(href='https://www.mediawiki.org/wiki/API:Main_page')  More Settings
+    //- .reference Reference_:
+    //-  a(href='https://ithelp.ithome.com.tw/articles/10188457' targer='blank') ONE 
+    //-  p ｜
+    //-  a(href='https://stackoverflow.com/questions/11400269/selecting-list-element-capturing-down-up-arrow')  TWO
+script(src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.0.1/Rx.js")
