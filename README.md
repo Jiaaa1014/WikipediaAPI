@@ -9,3 +9,4 @@
 ### Ref
 * [Auto Complete](https://ithelp.ithome.com.tw/articles/10188457)
 * [Selecting List Element Capturing Down-Up Arrow](https://stackoverflow.com/questions/11400269/selecting-list-element-capturing-down-up-arrow)  
+* [Javascript Char Codes (Key Codes)](https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes)
